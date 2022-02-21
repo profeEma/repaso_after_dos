@@ -1,3 +1,12 @@
+.grid-index{
+	display: grid;
+	grid-template-areas:
+	"header"
+	"main"
+	"footer";
+	grid-template-rows: auto auto auto;
+	grid-template-columns: 100%;
+}
 /* VISTA DESKTOP */
 @media only screen and (min-width: 1024px){
 	body{
